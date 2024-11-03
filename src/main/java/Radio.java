@@ -3,7 +3,7 @@ public class Radio {
     private int currentStation;
 
     public void nextStation() {
-        if (currentStation != maxStation) {
+        if (currentStation != 9) {
             currentStation++;
         } else {
             currentStation = 0;
